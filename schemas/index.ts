@@ -1,1 +1,3 @@
-export const schemaTypes = []
+import { country } from "./country";
+
+export const schemaTypes = [country]

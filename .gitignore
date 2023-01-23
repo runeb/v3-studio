@@ -24,3 +24,6 @@
 
 # Typescript
 *.tsbuildinfo
+
+.env.development
+.env.local

@@ -7,8 +7,8 @@ export default defineConfig({
   name: 'default',
   title: 'My V3 template',
 
-  projectId: 'jj6etzuz',
-  dataset: 'production',
+  projectId: process.env.SANITY_STUDIO_SANITY_PROJECT_ID || '',
+  dataset: process.env.SANITY_STUDIO_SANITY_DATASET || '',
 
   plugins: [deskTool(), visionTool()],
 

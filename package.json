@@ -10,7 +10,7 @@
     "build": "sanity build",
     "deploy": "sanity deploy",
     "deploy-graphql": "sanity graphql deploy",
-    "rune": "sanity exec bootstrapDataset.js"
+    "postinstall": "sanity exec bootstrapDataset.js"
   },
   "keywords": [
     "sanity"
